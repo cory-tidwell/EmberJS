@@ -10,6 +10,7 @@ Router.map(function () {
   this.route('about');
   this.route('services');
   this.route('contact');
+  this.route('test');
 
   this.route('posts', {path: '/posts'}, function (){
     this.route('new');
